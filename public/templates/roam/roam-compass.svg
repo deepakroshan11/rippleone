@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <defs>
+    <filter id="roamGlow">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="compassGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#EC4899"/>
+    </linearGradient>
+  </defs>
+  <!-- Compass Dial -->
+  <circle cx="100" cy="100" r="75" stroke="#F59E0B" stroke-width="2" stroke-dasharray="4 8" opacity="0.6"/>
+  <circle cx="100" cy="100" r="60" stroke="#F8FAFC" stroke-width="1.5" opacity="0.4"/>
+  <!-- Horizon mountains contour -->
+  <path d="M55 125 L85 95 L110 115 L145 80" fill="none" stroke="#F59E0B" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+  <!-- North-South Compass Needle -->
+  <polygon points="100,30 112,95 100,90 88,95" fill="url(#compassGrad)" filter="url(#roamGlow)"/>
+  <polygon points="100,170 112,105 100,110 88,105" fill="#E2E8F0" opacity="0.9"/>
+  <!-- Center Pivot -->
+  <circle cx="100" cy="100" r="8" fill="#FFFFFF" filter="url(#roamGlow)"/>
+</svg>

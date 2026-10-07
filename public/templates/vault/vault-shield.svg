@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <defs>
+    <filter id="fintechGlow">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="vaultGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284C7"/>
+      <stop offset="50%" stop-color="#0369A1"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="goldAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#34D399"/>
+    </linearGradient>
+  </defs>
+  <!-- Background Shield -->
+  <path d="M100 20 L160 50 V105 C160 145 100 180 100 180 C100 180 40 145 40 105 V50 Z" 
+        fill="url(#vaultGrad)" stroke="#38BDF8" stroke-width="2.5" filter="url(#fintechGlow)"/>
+  <!-- Inner Glass Panel -->
+  <path d="M100 35 L145 60 V102 C145 132 100 162 100 162 C100 162 55 132 55 102 V60 Z" 
+        fill="rgba(56,189,248,0.08)" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+  <!-- Financial Growth Chart Wave -->
+  <path d="M65 115 Q82 95 100 105 T135 75" fill="none" stroke="url(#goldAccent)" stroke-width="4" stroke-linecap="round" filter="url(#fintechGlow)"/>
+  <circle cx="135" cy="75" r="5" fill="#34D399" filter="url(#fintechGlow)"/>
+  <!-- Security Padlock Loop -->
+  <path d="M85 70 V58 C85 49 115 49 115 58 V70" fill="none" stroke="#F8FAFC" stroke-width="3" stroke-linecap="round"/>
+</svg>

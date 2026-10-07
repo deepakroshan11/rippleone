@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" fill="none">
+  <!-- Soft Wellness Leaf & Vitality Curve -->
+  <circle cx="80" cy="80" r="70" fill="#F0FDF4"/>
+  <path d="M80 42C62 55 58 80 72 98C82 110 98 116 112 112C116 94 110 70 96 56C90 50 84 45 80 42Z" fill="#16A34A"/>
+  <!-- Leaf vein curve -->
+  <path d="M80 42C86 64 92 88 112 112" stroke="#DCFCE7" stroke-width="3" stroke-linecap="round"/>
+</svg>

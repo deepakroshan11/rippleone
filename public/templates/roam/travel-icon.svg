@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" fill="none">
+  <!-- Minimal Travel Icon -->
+  <circle cx="80" cy="80" r="70" fill="#F0F9FF"/>
+  <!-- Minimal paper plane in flight -->
+  <path d="M42 80L118 42L86 118L74 88L42 80Z" fill="#0284C7"/>
+  <path d="M118 42L74 88L86 118" fill="#0369A1" opacity="0.3"/>
+  <circle cx="118" cy="42" r="4" fill="#38BDF8"/>
+</svg>

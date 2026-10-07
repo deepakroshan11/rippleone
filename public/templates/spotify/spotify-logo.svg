@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <!-- Spotify Iconic Soundwave Disk -->
+  <circle cx="50" cy="50" r="46" fill="#1ED760"/>
+  <path d="M26 38 C42 32 64 34 78 42" stroke="#121212" stroke-width="7" stroke-linecap="round"/>
+  <path d="M29 50 C42 46 60 47 72 54" stroke="#121212" stroke-width="6" stroke-linecap="round"/>
+  <path d="M33 62 C43 59 56 60 67 66" stroke="#121212" stroke-width="5" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <!-- Swiggy Food Delivery Pin & Swoosh -->
+  <path d="M50 14 C34 14 22 26 22 42 C22 62 50 86 50 86 C50 86 78 62 78 42 C78 26 66 14 50 14 Z" fill="#FC8019"/>
+  <!-- Inner White S Curve -->
+  <path d="M54 30 C46 30 42 34 42 38 C42 46 58 46 58 54 C58 58 54 62 48 62 C42 62 38 58 38 56" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round"/>
+</svg>

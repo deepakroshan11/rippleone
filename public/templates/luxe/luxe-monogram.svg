@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <defs>
+    <filter id="goldGlow">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="luxeGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFEAA7"/>
+      <stop offset="50%" stop-color="#DFB15B"/>
+      <stop offset="100%" stop-color="#9A7B38"/>
+    </linearGradient>
+  </defs>
+  <!-- Fine luxury gold border frame -->
+  <rect x="25" y="25" width="150" height="150" stroke="url(#luxeGold)" stroke-width="1.5" fill="none" opacity="0.8"/>
+  <rect x="35" y="35" width="130" height="130" stroke="url(#luxeGold)" stroke-width="0.8" fill="none" stroke-dasharray="4 4" opacity="0.5"/>
+  <!-- Diamond Monogram Crest -->
+  <polygon points="100,50 145,100 100,150 55,100" stroke="url(#luxeGold)" stroke-width="2" fill="rgba(20,18,15,0.85)" filter="url(#goldGlow)"/>
+  <!-- Serif Monogram Letter "N" -->
+  <path d="M85 80 V120 M85 80 L115 120 M115 80 V120" stroke="url(#luxeGold)" stroke-width="3" stroke-linecap="square" filter="url(#goldGlow)"/>
+</svg>

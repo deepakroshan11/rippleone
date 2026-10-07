@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <defs>
+    <filter id="gameGlow">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="fireGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF0055"/>
+      <stop offset="50%" stop-color="#FF5500"/>
+      <stop offset="100%" stop-color="#FFCC00"/>
+    </linearGradient>
+  </defs>
+  <!-- Outer angular hazard ring -->
+  <polygon points="100,15 175,55 175,145 100,185 25,145 25,55" stroke="#FF0055" stroke-width="2" stroke-dasharray="14 8" fill="rgba(20,2,8,0.7)"/>
+  <!-- Energy blade wings -->
+  <path d="M100 35 L145 75 L125 110 L100 85 L75 110 L55 75 Z" fill="url(#fireGrad)" filter="url(#gameGlow)"/>
+  <!-- Central crosshair core -->
+  <circle cx="100" cy="100" r="18" fill="#120206" stroke="#FF5500" stroke-width="3" filter="url(#gameGlow)"/>
+  <circle cx="100" cy="100" r="6" fill="#FFFFFF"/>
+  <!-- Aim notches -->
+  <line x1="100" y1="72" x2="100" y2="82" stroke="#FFCC00" stroke-width="2"/>
+  <line x1="100" y1="118" x2="100" y2="128" stroke="#FFCC00" stroke-width="2"/>
+  <line x1="72" y1="100" x2="82" y2="100" stroke="#FFCC00" stroke-width="2"/>
+  <line x1="118" y1="100" x2="128" y2="100" stroke="#FFCC00" stroke-width="2"/>
+</svg>

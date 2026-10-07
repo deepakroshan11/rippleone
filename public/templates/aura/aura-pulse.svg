@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <defs>
+    <filter id="auraGlow">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="auraGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F43F5E"/>
+      <stop offset="50%" stop-color="#FB7185"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+  </defs>
+  <!-- Concentric wellness rings -->
+  <circle cx="100" cy="100" r="75" stroke="#FB7185" stroke-width="1.5" opacity="0.3"/>
+  <circle cx="100" cy="100" r="60" stroke="#F43F5E" stroke-width="2" stroke-dasharray="12 6" opacity="0.6"/>
+  <circle cx="100" cy="100" r="45" fill="rgba(244,63,94,0.12)" stroke="url(#auraGrad)" stroke-width="2.5" filter="url(#auraGlow)"/>
+  <!-- Heartbeat ECG line -->
+  <path d="M40 100 H75 L85 80 L95 125 L105 70 L115 115 L125 100 H160" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" filter="url(#auraGlow)"/>
+</svg>

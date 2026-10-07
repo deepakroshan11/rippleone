@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" fill="none">
+  <!-- Friendly Social Infinity Loop -->
+  <circle cx="80" cy="80" r="70" fill="#FDF2F8"/>
+  <path d="M58 64C48 64 40 71 40 80C40 89 48 96 58 96C72 96 88 64 102 64C112 64 120 71 120 80C120 89 112 96 102 96C88 96 72 64 58 64Z" stroke="#EC4899" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Secondary dot -->
+  <circle cx="102" cy="80" r="6" fill="#8B5CF6"/>
+</svg>

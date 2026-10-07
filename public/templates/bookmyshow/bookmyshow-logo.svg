@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <!-- BookMyShow Cinema Ticket / Reel Emblem -->
+  <rect x="15" y="24" width="70" height="52" rx="12" fill="#DC2626"/>
+  <circle cx="15" cy="50" r="8" fill="#FFFFFF"/>
+  <circle cx="85" cy="50" r="8" fill="#FFFFFF"/>
+  <line x1="38" y1="28" x2="38" y2="72" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="4 4" opacity="0.6"/>
+  <!-- Play Reel Triangle -->
+  <polygon points="52,40 68,50 52,60" fill="#FFFFFF"/>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" fill="none">
+  <!-- Modern Commerce Shopping Bag -->
+  <circle cx="80" cy="80" r="70" fill="#FEFCE8"/>
+  <!-- Bag Body -->
+  <rect x="45" y="62" width="70" height="66" rx="14" fill="#EA580C"/>
+  <!-- Bag Handle -->
+  <path d="M62 62V50C62 40 70 34 80 34C90 34 98 40 98 50V62" stroke="#CA8A04" stroke-width="6" stroke-linecap="round"/>
+  <!-- Friendly Fold / Star Accent -->
+  <path d="M72 90L80 82L88 90" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

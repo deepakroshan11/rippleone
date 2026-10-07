@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" fill="none">
+  <!-- Freshly Food Delivery Icon -->
+  <circle cx="80" cy="80" r="70" fill="#FFF0EB"/>
+  <!-- Cloche dome -->
+  <path d="M42 98C42 62 118 62 118 98H42Z" fill="#FF5722"/>
+  <!-- Handle -->
+  <circle cx="80" cy="54" r="8" fill="#FF5722"/>
+  <!-- Base plate -->
+  <rect x="36" y="100" width="88" height="6" rx="3" fill="#D84315"/>
+  <!-- Fresh leaf accent -->
+  <path d="M84 46C90 40 98 42 100 48C94 52 86 50 84 46Z" fill="#4CAF50"/>
+</svg>

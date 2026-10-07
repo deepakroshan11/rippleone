@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" fill="none">
+  <!-- Clean search/location pin for Findora -->
+  <circle cx="80" cy="80" r="72" fill="#E8F5E9" opacity="0.6"/>
+  <circle cx="80" cy="80" r="54" fill="#C8E6C9" opacity="0.4"/>
+  <!-- Location Pin Body -->
+  <path d="M80 32C62.327 32 48 46.327 48 64c0 24 32 58 32 58s32-34 32-58c0-17.673-14.327-32-32-32z" fill="#14B45A"/>
+  <!-- Inner Search Loop -->
+  <circle cx="80" cy="62" r="14" fill="#FFFFFF"/>
+  <circle cx="80" cy="62" r="8" fill="#14B45A"/>
+</svg>

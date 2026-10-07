@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" fill="none">
+  <!-- Clean Healthcare Medical Cross & Heart Curve -->
+  <circle cx="80" cy="80" r="70" fill="#F0FDFA"/>
+  <!-- Rounded Medical Cross -->
+  <rect x="70" y="44" width="20" height="72" rx="10" fill="#0D9488"/>
+  <rect x="44" y="70" width="72" height="20" rx="10" fill="#0D9488"/>
+  <!-- Soft Inner Heart Dot -->
+  <circle cx="80" cy="80" r="6" fill="#FFFFFF"/>
+</svg>

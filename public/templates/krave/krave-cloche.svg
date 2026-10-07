@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <defs>
+    <filter id="kraveGlow">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="foodGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF6B00"/>
+      <stop offset="100%" stop-color="#FF2E00"/>
+    </linearGradient>
+  </defs>
+  <!-- Speed lines -->
+  <line x1="30" y1="85" x2="60" y2="85" stroke="#FF6B00" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+  <line x1="20" y1="105" x2="50" y2="105" stroke="#FF6B00" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+  <line x1="35" y1="125" x2="65" y2="125" stroke="#FF6B00" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+  <!-- Cloche Dome -->
+  <path d="M60 125 C60 70 140 70 140 125 Z" fill="url(#foodGrad)" filter="url(#kraveGlow)"/>
+  <!-- Handle -->
+  <circle cx="100" cy="65" r="9" fill="#FFCC00" filter="url(#kraveGlow)"/>
+  <!-- Platter Base -->
+  <rect x="50" y="127" width="100" height="8" rx="4" fill="#FFFFFF"/>
+  <!-- Steam Stars -->
+  <path d="M90 48 Q95 38 90 28" stroke="#FFCC00" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.9"/>
+  <path d="M105 50 Q110 40 105 30" stroke="#FF6B00" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.9"/>
+</svg>

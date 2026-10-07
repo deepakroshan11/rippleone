@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <defs>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="walletGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14B45A"/>
+      <stop offset="100%" stop-color="#0A7A3C"/>
+    </linearGradient>
+  </defs>
+  <!-- Wallet body -->
+  <rect x="20" y="60" width="160" height="110" rx="12" fill="url(#walletGrad)" filter="url(#glow)" opacity="0.95"/>
+  <!-- Wallet flap -->
+  <path d="M20 80 Q20 60 40 60 H160 Q180 60 180 80 V90 H20 V80Z" fill="#1ACC6A" opacity="0.8"/>
+  <!-- Coin pocket -->
+  <rect x="120" y="90" width="60" height="50" rx="8" fill="rgba(0,0,0,0.25)"/>
+  <circle cx="150" cy="115" r="16" fill="#14B45A" filter="url(#glow)"/>
+  <text x="150" y="121" text-anchor="middle" font-size="18" font-weight="bold" fill="white">$</text>
+  <!-- Card lines -->
+  <rect x="30" y="105" width="70" height="8" rx="4" fill="rgba(255,255,255,0.2)"/>
+  <rect x="30" y="120" width="50" height="8" rx="4" fill="rgba(255,255,255,0.15)"/>
+  <!-- Question mark overlay — "lost" indicator -->
+  <circle cx="155" cy="45" r="22" fill="#071F16" stroke="#14B45A" stroke-width="2" filter="url(#glow)"/>
+  <text x="155" y="53" text-anchor="middle" font-size="24" font-weight="bold" fill="#14B45A">?</text>
+</svg>

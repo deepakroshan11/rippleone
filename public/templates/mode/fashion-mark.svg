@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" fill="none">
+  <!-- Minimalist High-Fashion Monogram Mark -->
+  <rect x="25" y="25" width="110" height="110" stroke="#1A1A1A" stroke-width="2"/>
+  <rect x="35" y="35" width="90" height="90" stroke="#C5A880" stroke-width="1"/>
+  <!-- Elegant Serif M Glyph -->
+  <path d="M55 105V55L80 90L105 55V105" stroke="#1A1A1A" stroke-width="4" stroke-linecap="square" stroke-linejoin="miter"/>
+</svg>

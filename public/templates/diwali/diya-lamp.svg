@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <defs>
+    <filter id="diyaGlow">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <radialGradient id="flameGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="30%" stop-color="#FFE600"/>
+      <stop offset="70%" stop-color="#FF5500"/>
+      <stop offset="100%" stop-color="#FF0055" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="baseGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF9900"/>
+      <stop offset="50%" stop-color="#CC3300"/>
+      <stop offset="100%" stop-color="#661100"/>
+    </linearGradient>
+  </defs>
+  <!-- Radiant Aura -->
+  <circle cx="100" cy="70" r="45" fill="url(#flameGrad)" filter="url(#diyaGlow)" opacity="0.8"/>
+  <!-- Diya flame teardrop -->
+  <path d="M100 40 C92 58 88 68 88 78 C88 88 94 92 100 92 C106 92 112 88 112 78 C112 68 108 58 100 40 Z" 
+        fill="#FFDD00" filter="url(#diyaGlow)"/>
+  <path d="M100 55 C96 66 94 72 94 78 C94 84 97 86 100 86 C103 86 106 84 106 78 C106 72 104 66 100 55 Z" 
+        fill="#FFFFFF"/>
+  <!-- Diya clay bowl -->
+  <path d="M45 105 Q100 135 155 105 C145 145 55 145 45 105 Z" 
+        fill="url(#baseGrad)" stroke="#FFD700" stroke-width="2" filter="url(#diyaGlow)"/>
+  <!-- Decorative engravings -->
+  <circle cx="100" cy="122" r="4" fill="#FFD700"/>
+  <circle cx="82" cy="120" r="3" fill="#FFD700"/>
+  <circle cx="118" cy="120" r="3" fill="#FFD700"/>
+  <circle cx="66" cy="115" r="2.5" fill="#FFD700"/>
+  <circle cx="134" cy="115" r="2.5" fill="#FFD700"/>
+</svg>
